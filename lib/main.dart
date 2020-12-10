@@ -3,7 +3,7 @@ import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:manga_reader/db/db.dart';
 import 'package:manga_reader/models/book.dart';
-import 'package:manga_reader/pages/library_page.dart';
+import 'package:manga_reader/pages/library.page.dart';
 
 void main() async {
   await Hive.initFlutter();
@@ -23,9 +23,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       theme: ThemeData(
-        brightness: Brightness.light,
-        primaryColor: Colors.deepOrange
-      ),
+          brightness: Brightness.light, primaryColor: Colors.deepOrange),
       darkTheme: ThemeData.dark(),
       home: LibraryPage(),
     );

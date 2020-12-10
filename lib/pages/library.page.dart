@@ -1,13 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:hive/hive.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 import 'package:manga_reader/db/db.dart';
 import 'package:manga_reader/models/book.dart';
 import 'package:manga_reader/pages/add_book.page.dart';
-import 'package:manga_reader/pages/book_reader_page.dart';
-import 'package:manga_reader/service/scraper.dart';
-import 'package:hive_flutter/hive_flutter.dart';
+import 'package:manga_reader/pages/book_reader.page.dart';
 
 class LibraryPage extends StatefulWidget {
   LibraryPage({Key key}) : super(key: key);
