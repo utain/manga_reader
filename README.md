@@ -9,8 +9,8 @@ Manga source supported
 ## Screenshot
 
 Darkmode
-![library](./scd1.png)
-![library](./scd2.png)
+![library](./scd1.PNG)
+![library](./scd2.PNG)
 
 Ligh theme
 ![library](./sc1.jpeg)
